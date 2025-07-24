@@ -12,7 +12,7 @@ This project showcases a demo of a minecraft terrain genrator in JavaScript with
 
 # How it works 
 
-###Buffer.js
+### Buffer.js
 Defines the shape of a cube 
 - Creates the 3D coordination for cube corners
 - Sets up texture coordinates
@@ -63,5 +63,10 @@ Cave generation
 ### each refreshed page is a newly generated terrain
 
 <img width="1906" height="916" alt="image" src="https://github.com/user-attachments/assets/b37e1085-0b42-4ec9-87e7-4c1415775c8d" />
+
+### can also change terrain width and length 
+
+<img width="1899" height="905" alt="image" src="https://github.com/user-attachments/assets/12983071-cc37-4893-b52c-4ce0d1e1c4eb" />
+
 
 
