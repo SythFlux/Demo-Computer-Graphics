@@ -64,7 +64,8 @@ Cave generation
 
 <img width="1906" height="916" alt="image" src="https://github.com/user-attachments/assets/b37e1085-0b42-4ec9-87e7-4c1415775c8d" />
 
-### can also change terrain width and length 
+### can also change terrain chunk size
+-your gpu might not like it above value 60
 
 <img width="1899" height="905" alt="image" src="https://github.com/user-attachments/assets/12983071-cc37-4893-b52c-4ce0d1e1c4eb" />
 
