@@ -10,6 +10,51 @@ This project showcases a demo of a minecraft terrain genrator in JavaScript with
 - Install the extension "Live Server"
 - Right click on index.html and choose the option "Open with live server"
 
+# How it works 
+
+###Buffer.js
+Defines the shape of a cube 
+- Creates the 3D coordination for cube corners
+- Sets up texture coordinates
+- Defines surface normals
+
+### shader.js
+contains the graphics shaders
+- Vertex Shaders: Determines position of every cube in 3D world space
+- Frag,emt Shaders Determines colors of each piuxel, applies texture and lighting.
+
+### texture.js
+loads images to put on cube faces
+- Loads png files
+
+### Perlinnoise.js
+creates natural random patterns
+- generate terrain heights
+- makes hills and valleys not completely random
+
+### main.js
+Setup phase
+- Webgl initialization
+- Shader compilation
+- Buffer creation
+- texture loading
+
+World generation
+
+- Use perlin noise to create hills
+- Each colujmn gets a height based on smooth random values
+- Place different block types at different depths
+
+Tree generation
+
+- Randomly places trees on grass blocks
+- Each tree has a wood trunk and leaf crown
+
+Cave generation
+
+- Creates a worl-like cave that tunnel through the terrain
+- removes block along the paths to create hollow spaces 
+
 
 # Showcase
 
